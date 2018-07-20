@@ -6,11 +6,11 @@ class Person
     @name
   end
 
-  def job=(human_job)
+  def job= (human_job)
     @job = human_job
   end
 
-  def breed
+  def job
     @job
   end
 
